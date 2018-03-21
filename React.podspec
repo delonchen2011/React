@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ReactNative"
+  s.name         = "React"
   s.version      = "0.52.0"
   s.summary      = "React Native."
   s.ios.deployment_target = '8.0'
