@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
+  s.source_files = 'React/**/*.{m,h}'
   s.public_header_files = 'React/**/*.h'
   s.vendored_libraries = 'libReact.a','libRCTWebSocket.a','libRCTActionSheet.a','libRCTAnimation.a','libRCTBlob.a','libRCTGeolocation.a','libRCTImage.a','libRCTLinking.a','libRCTNetwork.a','libRCTSettings.a','libRCTText.a','libRCTVibration.a'
 
